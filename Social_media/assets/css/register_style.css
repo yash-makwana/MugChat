@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src:url(../fonts/Bellota-LightItalic.otf);
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src:url(../fonts/Bellota-BoldItalic.otf);
+}
+html,body{
+	height: 100%;
+	min-height: 100%;
+}
+body{
+	background-color: #F2F2F2;
+	background-size: 100%;
+	margin:0;
+	padding: 0;
+
+}
+
+form{
+	text-align: center;
+}
+
+.wrapper{
+	width:100%;
+	height:100%;
+	min-width: 950px;
+
+}
+a{
+	text-decoration: none;
+	color:#0095f6;
+}
+.login_box {
+	font-family:'Bellota-LightItalic', sans-serif;
+	position: absolute;
+	margin-right: 68%%;
+	margin-left: 32%;
+	top: 10%;
+	width: 35%; 
+	background-color: #ffffff;
+	border: 1px solid #F7F7F7;
+	border-radius: 7px;
+	padding: 7px;
+}
+.login_header{
+	font-family:'Bellota-LightItalic', sans-serif;
+	width: 100%;
+	height: 90px;
+	background-color:#F7F7F7;
+	text-align: center;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px; 
+}
+.login_header h1{
+	font-family:'Bellota-BoldItalic', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: #000 0.5px 0.5px 0px;
+}
+
+input[type="submit"]{
+	background-color: #0095f6;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #0095f6;
+	border-radius: 4px;
+	margin: 5px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	font-family:'Bellota-BoldItalic', sans-serif;
+	font-size: 100%;
+	color: #FFF;
+	text-shadow: #000 0.4px 0.4px 0px;  
+}
+input[type="submit"]:hover{
+	background-color: #0092ed;
+	cursor: pointer;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+	background-color: #F7F7F7;
+	border: 1px solid #F7F7F7;
+	margin-top: 5px;
+	width: 80%;
+	height: 45px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	font-family:'Bellota-BoldItalic', sans-serif;
+	font-size: 100%;
+	color: #000;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
+	border-color: #0092ed;	
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus{
+	border-color: #edeaea;	
+}
+#second{
+	display: none;
+}
